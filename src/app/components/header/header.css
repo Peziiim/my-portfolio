@@ -1,0 +1,12 @@
+ .header{
+      display: flex;
+      flex-direction: column;
+    }
+
+      @media (min-width: 760px){
+      .header{
+         flex-direction: row-reverse;
+      }
+
+      }
+

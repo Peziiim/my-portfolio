@@ -1,0 +1,13 @@
+.container{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-template-areas:
+        "header"
+        "buttons"
+        "experience"
+        "infos";
+}
+
+    @media(min-width: 760px){
+
+    }

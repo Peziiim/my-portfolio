@@ -1,9 +1,12 @@
-import Image from ".next/image";
+import Image from "next/image";
+
 import { Header } from "./components/header/header";
+
+import "./components/styles/home.css";
 
 export default function Home() {
     return(
-        <main>
+        <main className='container'>
             <Header/>
             <div className="experience">
             <h3></h3>

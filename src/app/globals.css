@@ -1,6 +1,8 @@
 :root {
     --text-primary: white;
-    --bg-primary:  #2C2C2C
+    --text-secondary: #B3B3B3;
+    --bg-primary: black;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,6 +19,7 @@ body {
 
 body {
     background-color: var(--bg-primary)
+
 }
 
 * {

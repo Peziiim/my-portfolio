@@ -8,9 +8,11 @@ export default function Home() {
     return(
         <main className='container'>
             <Header/>
+
+
             <div className="experience">
-            <h3></h3>
-            <p>texto</p>
+            <h3>Experience</h3>
+            <p>First job as a software enginner</p>
             </div>
 
             <div className="experienceTime">
@@ -19,15 +21,14 @@ export default function Home() {
             <div className="infos">
                 <h3>Languages</h3>
             <div className="languages-info">
-                <span> EN - Fluent</span>
-                <span> PT-BR - Native Speaker</span>
+                <span> EN - English - Fluent</span>
+                <span> PT-BR - Português brasileiro - Native Speaker</span>
                 </div>
             </div>
 
-            <h3>Education</h3>
             <div className="educational-info">
+            <h3>Education</h3>
 
-                <span></span>
                 <span>Computer science Bachelors Degree</span>
 
               </div>

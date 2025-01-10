@@ -9,5 +9,19 @@
 }
 
     @media(min-width: 760px){
+        .container{
+            padding: 70px 60px;
+            height: 95vh;
+            grid-template-rows: auto;
+            grid-template-columns: 70% 30%;
+            align-items: center;
+            justify-items: start;
+            justify-content: space-between;
+             grid-template-areas:
+                    "header info"
+                    "experience empty-1"
+                    "buttons empty-2";
+
+        }
 
     }
